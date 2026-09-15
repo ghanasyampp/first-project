@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The profile of Mara Ellison, a brand strategist and creative director." />
+  <title>Mara Ellison — Creative Strategist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="Mara Ellison home">ME<span>.</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#selected-work">Selected work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="status-pill" href="mailto:hello@maraellison.com"><span></span> Available for work</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="profile-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent creative strategist <span>—</span> NYC / Worldwide</p>
+          <h1 id="profile-title">Making room<br />for <em>better</em> ideas.</h1>
+          <p class="intro">I help ambitious teams find the sharpest version of what they want to say, then make it impossible to ignore.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#selected-work">Explore my work <span>↘</span></a>
+            <button class="copy-button" id="copy-email" type="button">Copy email <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85" alt="Portrait of Mara Ellison" />
+          </div>
+          <p class="portrait-note">Currently thinking about<br /><strong>clarity, culture &amp; good coffee.</strong></p>
+          <span class="stamp">EST.<br />2016</span>
+        </div>
+      </section>
+
+      <section class="about section-grid" id="about" aria-labelledby="about-title">
+        <p class="section-label">01 / About</p>
+        <div class="about-content">
+          <h2 id="about-title">Strategy with a point of view.</h2>
+          <div class="about-columns">
+            <p>For the last decade, I’ve partnered with founders, culture-makers, and teams in motion to turn fuzzy ambition into meaningful direction.</p>
+            <p>My practice sits between brand strategy, words, and the quiet decisions that make work feel like it could only have come from you.</p>
+          </div>
+          <div class="principles" aria-label="Working principles">
+            <span>Listen closely</span>
+            <span>Ask better questions</span>
+            <span>Make it matter</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-grid" id="selected-work" aria-labelledby="work-title">
+        <p class="section-label">02 / Selected work</p>
+        <div class="work-content">
+          <div class="section-heading-row">
+            <h2 id="work-title">A few good things.</h2>
+            <span class="work-count">(03)</span>
+          </div>
+          <div class="project-list">
+            <a class="project" href="#contact">
+              <span class="project-number">01</span>
+              <span class="project-name">Good Intentions</span>
+              <span class="project-type">Brand platform / 2024</span>
+              <span class="project-arrow">↗</span>
+            </a>
+            <a class="project" href="#contact">
+              <span class="project-number">02</span>
+              <span class="project-name">Field Notes</span>
+              <span class="project-type">Editorial direction / 2023</span>
+              <span class="project-arrow">↗</span>
+            </a>
+            <a class="project" href="#contact">
+              <span class="project-number">03</span>
+              <span class="project-name">Soft Power</span>
+              <span class="project-type">Campaign strategy / 2022</span>
+              <span class="project-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-grid" id="contact" aria-labelledby="contact-title">
+        <p class="section-label">03 / Say hello</p>
+        <div class="contact-content">
+          <h2 id="contact-title">Have a good<br /><em>one?</em> Let’s talk.</h2>
+          <a class="contact-link" href="mailto:hello@maraellison.com">hello@maraellison.com <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2025 Mara Ellison</span>
+      <span>Built with intention.</span>
+      <div class="socials"><a href="#contact">LinkedIn</a><a href="#contact">Instagram</a></div>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard</div>
+  <script src="script.js"></script>
+</body>
+</html>
